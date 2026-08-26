@@ -8,7 +8,7 @@ Docente: Amanda Paul Dull
 
 Esse repositório serve de exemplo para a entrega de atividades da matéria de IoT.
 
-[![Simular no Tinkercad][[https://www.tinkercad.com/things/0dNkUfwLUEB/editel?returnTo=%2Fdashboard%2Fdesigns%2Fcircuits](https://www.tinkercad.com/things/ezyH0sJcKoh-atividade-01-led))
+[![Simular no Tinkercad][[[https://www.tinkercad.com/things/0dNkUfwLUEB/editel?returnTo=%2Fdashboard%2Fdesigns%2Fcircuits](https://www.tinkercad.com/things/ezyH0sJcKoh-atividade-01-led)](https://www.tinkercad.com/things/0dNkUfwLUEB-atividade-com-varios-leds))
 
 ## Enunciado:Atividade 01 - LED
 
@@ -29,3 +29,57 @@ O projeto vai utilizar um botão como entrada para controlar um LED como saída.
 | 1 | Botão tipo push button |
 | 1 | LED vermelho difuso de 5 mm |
 | — | Fios de jumper macho-macho |
+
+
+IMAGEM: <img width="836" height="766" alt="image" src="https://github.com/user-attachments/assets/28705ddd-9cd9-47f1-8012-1800d45fa86c" />
+
+Código: // C++ code
+//
+// DigitalRead = lê
+// DigitalWrite = envia
+
+int led1 = 10;
+int led2 = 13;
+int botao = 8;
+int contador = 0;
+
+void setup()
+{
+  pinMode(led1, OUTPUT);
+  pinMode(led2, OUTPUT);
+  pinMode(botao, INPUT);
+}
+
+void loop()
+{
+ 
+  if (digitalRead(botao) == HIGH){
+   contador++;
+    
+    if( contador >3){
+      contador = 1;
+    }
+    delay(200);
+    while (digitalRead(botao) == HIGH) {
+      
+    }
+    delay(50);
+  }
+  
+  if (contador == 1) {
+    digitalWrite(led1, HIGH);
+     digitalWrite(led2, LOW);
+  }
+  
+  if (contador == 2) {
+    digitalWrite(led2, HIGH);
+     digitalWrite(led1, LOW);
+  }
+  
+  if (contador == 3) {
+    digitalWrite(led1, LOW);
+     digitalWrite(led2, LOW);
+  }
+}
+
+
