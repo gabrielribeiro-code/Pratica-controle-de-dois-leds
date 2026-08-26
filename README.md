@@ -8,7 +8,7 @@ Docente: Amanda Paul Dull
 
 Esse repositório serve de exemplo para a entrega de atividades da matéria de IoT.
 
-[![Simular no Tinkercad][[[https://www.tinkercad.com/things/0dNkUfwLUEB/editel?returnTo=%2Fdashboard%2Fdesigns%2Fcircuits](https://www.tinkercad.com/things/ezyH0sJcKoh-atividade-01-led)](https://www.tinkercad.com/things/0dNkUfwLUEB-atividade-com-varios-leds))
+[![Simular no Tinkercad](https://www.tinkercad.com/things/0dNkUfwLUEB-atividade-com-varios-leds))](https://www.tinkercad.com/things/0dNkUfwLUEB-atividade-com-varios-leds))](https://www.tinkercad.com/things/0dNkUfwLUEB-atividade-com-varios-leds)
 
 ## Enunciado:Atividade 01 - LED
 
