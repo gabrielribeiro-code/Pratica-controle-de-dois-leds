@@ -10,12 +10,13 @@ Esse repositório serve de exemplo para a entrega de atividades da matéria de I
 
 [![Simular no Tinkercad](https://www.tinkercad.com/things/0dNkUfwLUEB-atividade-com-varios-leds))](https://www.tinkercad.com/things/0dNkUfwLUEB-atividade-com-varios-leds))](https://www.tinkercad.com/things/0dNkUfwLUEB-atividade-com-varios-leds)
 
-## Enunciado:Atividade 01 - LED
+## Enunciado:Atividade 02 - LED's
 
-O projeto vai utilizar um botão como entrada para controlar um LED como saída. Ao pressionar o botão, o Arduino altera o estado do LED — cada clique liga ou desliga, funcionando como um interruptor eletrônico.
+O projeto vai utilizar um botão como entrada para controlar dois LED como saída. Ao pressionar o botão, primeiro vai acender o led1, após clicar a segunda vez desliga um e acende o outro, depois fica os dois apagados e depois volta toda o processo no quarto aperto.
 
-- O Arduino lê o estado do botão pelo **pino 7**
-- Controla o LED pelo **pino 10**
+- O Arduino lê o estado do botão pelo **pino 8**
+- Controla o LED1 pelo **pino 10**
+- - Controla o LED2 pelo **pino 13**
 
 ## Materiais necessários
 
@@ -24,11 +25,12 @@ O projeto vai utilizar um botão como entrada para controlar um LED como saída.
 | 1 | Placa Arduino UNO |
 | 1 | Cabo USB |
 | 1 | Protoboard |
-| 1 | Resistor de 200 Ω ou 220 Ω |
+| 2 | Resistor de 200 Ω ou 220 Ω |
 | 1 | Resistor de 10 kΩ |
 | 1 | Botão tipo push button |
 | 1 | LED vermelho difuso de 5 mm |
-| — | Fios de jumper macho-macho |
+| 1 | LED verde difuso de 5 mm |
+| 9 | Fios de jumper macho-macho |
 
 
 IMAGEM: <img width="836" height="766" alt="image" src="https://github.com/user-attachments/assets/28705ddd-9cd9-47f1-8012-1800d45fa86c" />
